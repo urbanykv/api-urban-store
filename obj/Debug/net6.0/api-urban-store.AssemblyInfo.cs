@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("api-urban-store")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4992106d160e94b5f77ac19dd25948cc6dbf0bbb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+137ee83b358532eb8d0a467ea8ad076a4148e084")]
 [assembly: System.Reflection.AssemblyProductAttribute("api-urban-store")]
 [assembly: System.Reflection.AssemblyTitleAttribute("api-urban-store")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
