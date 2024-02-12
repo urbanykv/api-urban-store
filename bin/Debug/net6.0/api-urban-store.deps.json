@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "api-urban-store/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Analyzers": "6.0.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.0",

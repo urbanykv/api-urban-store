@@ -65,3 +65,4 @@ C:\Users\Urban\Documents\GitHub\api-urban-store\obj\Debug\net6.0\api-urban-store
 C:\Users\Urban\Documents\GitHub\api-urban-store\obj\Debug\net6.0\ref\api-urban-store.dll
 C:\Users\Urban\Documents\GitHub\api-urban-store\bin\Debug\net6.0\MySqlConnector.dll
 C:\Users\Urban\Documents\GitHub\api-urban-store\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Urban\Documents\GitHub\api-urban-store\obj\Debug\net6.0\api-urban-store.sourcelink.json
