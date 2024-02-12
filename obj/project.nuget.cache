@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Hx8cn6XGd5RvnGG1Yk8gLmnp8lFql97xxBrNF+CarY7KreWCsyvqskqmmGj//a2ATptupa8aa2/9cUFvnLPV7g==",
+  "dgSpecHash": "17RrdDCbQRDgQzFtu61DQZ0xGfpU8tdkHscfHE6glyX9VmheoxjXaR8tWfI0kNitqL1K3wdsGp8wLIjLT01TPg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Urban\\Documents\\GitHub\\api-urban-store\\api-urban-store.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,8 @@
     "C:\\Users\\Urban\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Urban\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Urban\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Urban\\.nuget\\packages\\mysqlconnector\\2.0.0\\mysqlconnector.2.0.0.nupkg.sha512",
+    "C:\\Users\\Urban\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\6.0.0\\pomelo.entityframeworkcore.mysql.6.0.0.nupkg.sha512",
     "C:\\Users\\Urban\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\Urban\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\Urban\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

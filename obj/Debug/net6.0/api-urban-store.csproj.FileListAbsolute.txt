@@ -63,3 +63,5 @@ C:\Users\Urban\Documents\GitHub\api-urban-store\obj\Debug\net6.0\refint\api-urba
 C:\Users\Urban\Documents\GitHub\api-urban-store\obj\Debug\net6.0\api-urban-store.pdb
 C:\Users\Urban\Documents\GitHub\api-urban-store\obj\Debug\net6.0\api-urban-store.genruntimeconfig.cache
 C:\Users\Urban\Documents\GitHub\api-urban-store\obj\Debug\net6.0\ref\api-urban-store.dll
+C:\Users\Urban\Documents\GitHub\api-urban-store\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\Urban\Documents\GitHub\api-urban-store\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll

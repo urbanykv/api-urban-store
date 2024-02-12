@@ -1,6 +1,13 @@
+using api_urban_store.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+var connectionString = builder.Configuration.GetConnectionString("ConexaoUrbanStore");
+
+builder.Services.AddDbContext<UrbanStoreContext>(options => options.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 21))));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
