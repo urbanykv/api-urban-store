@@ -24,11 +24,9 @@ namespace api_urban_store.Controllers
     public async Task<IActionResult> Get()
     {
       var collection = _database.GetCollection<Produtos>("Produtos");
-
-      var documents = await collection.Find(new BsonDocument()).ToListAsync();
-      var json = Newtonsoft.Json.JsonConvert.SerializeObject(documents);
+      var produtos = await collection.Find(new BsonDocument()).ToListAsync();
       
-      return Ok(json);
+      return Ok(produtos);
     }
   }
 }
