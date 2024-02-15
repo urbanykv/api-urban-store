@@ -1,12 +1,18 @@
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+
 namespace api_urban_store.Entities
 {
   public class Produtos
   {
-    public int Id { get; set; }
-    public string Nome { get; set; }
-    public double Preco { get; set; }
-    public string Descricao { get; set; }
-    public double Rating { get; set; }
-    public string Imagem { get; set; }
+    [BsonId]
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string _id { get; set; }
+    public int id { get; set; }
+    public string nome { get; set; }
+    public double preco { get; set; }
+    public string descricao { get; set; }
+    public double rating { get; set; }
+    public string imagem { get; set; }
   }
 }

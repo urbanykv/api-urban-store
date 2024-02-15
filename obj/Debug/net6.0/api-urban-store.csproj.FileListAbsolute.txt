@@ -66,3 +66,17 @@ C:\Users\Urban\Documents\GitHub\api-urban-store\obj\Debug\net6.0\ref\api-urban-s
 C:\Users\Urban\Documents\GitHub\api-urban-store\bin\Debug\net6.0\MySqlConnector.dll
 C:\Users\Urban\Documents\GitHub\api-urban-store\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\Urban\Documents\GitHub\api-urban-store\obj\Debug\net6.0\api-urban-store.sourcelink.json
+C:\Users\Urban\Documents\GitHub\api-urban-store\bin\Debug\net6.0\AWSSDK.Core.dll
+C:\Users\Urban\Documents\GitHub\api-urban-store\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+C:\Users\Urban\Documents\GitHub\api-urban-store\bin\Debug\net6.0\DnsClient.dll
+C:\Users\Urban\Documents\GitHub\api-urban-store\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\Urban\Documents\GitHub\api-urban-store\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\Urban\Documents\GitHub\api-urban-store\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\Urban\Documents\GitHub\api-urban-store\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\Urban\Documents\GitHub\api-urban-store\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\Urban\Documents\GitHub\api-urban-store\bin\Debug\net6.0\Snappier.dll
+C:\Users\Urban\Documents\GitHub\api-urban-store\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\Urban\Documents\GitHub\api-urban-store\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\Urban\Documents\GitHub\api-urban-store\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Urban\Documents\GitHub\api-urban-store\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Urban\Documents\GitHub\api-urban-store\bin\Debug\net6.0\Newtonsoft.Json.dll

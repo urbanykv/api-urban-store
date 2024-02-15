@@ -2,9 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using api_urban_store.Context;
 using api_urban_store.Entities;
 using Microsoft.AspNetCore.Mvc;
+using MongoDB.Bson;
+using MongoDB.Driver;
 
 namespace api_urban_store.Controllers
 {
@@ -12,31 +13,22 @@ namespace api_urban_store.Controllers
   [Route("[controller]")]
   public class ProdutosController : ControllerBase
   {
-    private readonly UrbanStoreContext _contextUrbanStore;
+    private readonly IMongoDatabase _database;
 
-    public ProdutosController( UrbanStoreContext contextUrbanStore)
+    public ProdutosController(IMongoDatabase database)
     {
-      _contextUrbanStore = contextUrbanStore;
+      _database = database;
     }
 
-    [HttpGet("products/{id}")]
-    public IActionResult GetProductPerId(int id)
+    [HttpGet]
+    public async Task<IActionResult> Get()
     {
-      var produto = _contextUrbanStore.Produtos.Find(id);
+      var collection = _database.GetCollection<Produtos>("Produtos");
 
-      if(produto == null)
-      {
-        NotFound();
-      }
-
-      return Ok(produto);
-    }
-    
-    [HttpGet("products")]
-    public IActionResult GetProducts()
-    {
-      var produtos = _contextUrbanStore.Produtos;
-      return Ok(produtos);
+      var documents = await collection.Find(new BsonDocument()).ToListAsync();
+      var json = Newtonsoft.Json.JsonConvert.SerializeObject(documents);
+      
+      return Ok(json);
     }
   }
 }
